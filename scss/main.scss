@@ -1,18 +1,18 @@
 /* Abstracts */
-@use 'abstracts/variables';
+@import 'abstracts/variables';
 
 /* Base */
-@use 'base/reset';
-@use 'base/typography';
+@import 'base/reset';
+@import 'base/typography';
 
 /* Layout */
-@use 'layout/grid';
-@use 'layout/header';
-@use 'layout/footer';
+@import 'layout/grid';
+@import 'layout/header';
+@import 'layout/footer';
 
 /* Components */
-@use 'components/buttons';
-@use 'components/cards';
+@import 'components/buttons';
+@import 'components/cards';
 
 /* Pages */
-@use 'pages/home';
+@import 'pages/home';
