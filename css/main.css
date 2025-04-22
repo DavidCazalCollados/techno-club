@@ -39,21 +39,16 @@ p {
 }
 
 .top-page {
+  display: flex;
+  flex-direction: column;
+  gap: 80px;
   padding-top: 32px;
   padding-bottom: 80px;
   background-color: #FAF5F3;
-  background-image: url("../../assets/illustrations/Vector.svg"), url("../../assets/illustrations/glow-bg.svg");
+  background-image: url("../../assets/illustrations/Vector.svg");
   background-repeat: no-repeat;
-  background-position: bottom right;
   border: 1.2px solid;
   border-image-source: radial-gradient(37.55% 33.81% at 50% 75.06%, rgba(10, 13, 22, 0.01) 20.5%, rgba(10, 13, 22, 0.04) 100%);
-}
-
-.top-page nav {
-  display: flex;
-  align-items: center;
-  gap: 14px;
-  margin-bottom: 80px;
 }
 
 .top-page nav p {
@@ -85,6 +80,11 @@ p {
   width: 540px;
   height: 606px;
   border-radius: 8px;
+}
+
+.glow {
+  position: absolute;
+  z-index: 0;
 }
 
 /*# sourceMappingURL=main.css.map */
