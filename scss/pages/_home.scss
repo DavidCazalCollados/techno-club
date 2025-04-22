@@ -38,8 +38,31 @@
   font-weight: 600;
   font-size: 20px;
   line-height: 100%;
-  letter-spacing: -6%;
+  letter-spacing: -0.06em;
   color: rgba(6, 38, 48, 1);
 }
 
 // Top page grid
+.top-page-grid {
+  display: flex;
+  gap: $gap-top-page-grid;
+}
+
+// Top page text part
+.top-page-info-part {
+  display: flex;
+  flex-direction: column;
+}
+
+.top-page-info-part h1 {
+  background: linear-gradient(107.24deg, #FEA36F -11.37%, #062630 61.84%);
+  background-clip: text;
+  color: transparent
+}
+
+// Top page image part
+.top-page-grid img {
+  width: 540px;
+  height: 606px;
+  border-radius: 8px;
+}

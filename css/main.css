@@ -61,8 +61,30 @@ p {
   font-weight: 600;
   font-size: 20px;
   line-height: 100%;
-  letter-spacing: -6%;
+  letter-spacing: -0.06em;
   color: rgb(6, 38, 48);
+}
+
+.top-page-grid {
+  display: flex;
+  gap: 64px;
+}
+
+.top-page-info-part {
+  display: flex;
+  flex-direction: column;
+}
+
+.top-page-info-part h1 {
+  background: linear-gradient(107.24deg, #FEA36F -11.37%, #062630 61.84%);
+  background-clip: text;
+  color: transparent;
+}
+
+.top-page-grid img {
+  width: 540px;
+  height: 606px;
+  border-radius: 8px;
 }
 
 /*# sourceMappingURL=main.css.map */
