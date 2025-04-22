@@ -1,6 +1,20 @@
 /* Abstracts */
 @import url("https://fonts.googleapis.com/css2?family=Martian+Mono:wght@100..800&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Fira+Code:wght@300..700");
 /* Base */
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #FFFFFF;
+}
+
+h1, h2 {
+  margin: 0;
+}
+
+p {
+  margin: 0;
+}
+
 h1 {
   font-weight: 700;
   font-size: 62px;
@@ -19,5 +33,11 @@ p {
 /* Layout */
 /* Components */
 /* Pages */
+.general-disposition {
+  padding-left: 135px;
+  padding-right: 135px;
+  display: flex;
+  flex-direction: column;
+}
 
 /*# sourceMappingURL=main.css.map */
