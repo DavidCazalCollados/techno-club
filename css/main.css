@@ -28,14 +28,17 @@ h1, h2 {
 
 p {
   font-family: "Inter", sans-serif;
+  color: #385159;
 }
 
 /* Layout */
 /* Components */
 /* Pages */
-.general-disposition {
-  padding-left: 135px;
-  padding-right: 135px;
+.main-container {
+  display: flex;
+  flex-direction: column;
+  gap: 120px;
+  background-color: #FFFFFF;
 }
 
 .top-page {
@@ -44,6 +47,8 @@ p {
   gap: 80px;
   padding-top: 32px;
   padding-bottom: 80px;
+  padding-left: 135px;
+  padding-right: 135px;
   background-color: #FAF5F3;
   background-image: url("../../assets/illustrations/Vector.svg");
   background-repeat: no-repeat;
@@ -68,23 +73,39 @@ p {
 .top-page-info-part {
   display: flex;
   flex-direction: column;
+  gap: 32px;
+  width: 570px;
 }
 
-.top-page-info-part h1 {
+.top-page-intro {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.top-page-intro h1 {
   background: linear-gradient(107.24deg, #FEA36F -11.37%, #062630 61.84%);
   background-clip: text;
   color: transparent;
+}
+
+.top-page-intro p {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 140%;
+  letter-spacing: -0.5px;
+}
+
+.top-page-adhesion {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
 }
 
 .top-page-grid img {
   width: 540px;
   height: 606px;
   border-radius: 8px;
-}
-
-.glow {
-  position: absolute;
-  z-index: 0;
 }
 
 /*# sourceMappingURL=main.css.map */

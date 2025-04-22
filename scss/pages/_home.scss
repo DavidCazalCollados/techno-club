@@ -1,6 +1,10 @@
-.general-disposition {
-  padding-left: $general-padding;
-  padding-right: $general-padding;
+// Main container
+
+.main-container {
+  display: flex;
+  flex-direction: column;
+  gap: 120px;
+  background-color: $main-background-color;
 }
 
 // Top page
@@ -10,6 +14,8 @@
   gap: $spacing-1000;
   padding-top: $spacing-400;
   padding-bottom: $spacing-1000;
+  padding-left: 135px;
+  padding-right: 135px;
   background-color: #FAF5F3;
   background-image:
     url('../../assets/illustrations/Vector.svg');
@@ -48,12 +54,33 @@
 .top-page-info-part {
   display: flex;
   flex-direction: column;
+  gap: $spacing-400;
+  width: 570px;
 }
 
-.top-page-info-part h1 {
+.top-page-intro {
+  display: flex;
+  flex-direction: column;
+  gap: $spacing-300;
+}
+
+.top-page-intro h1 {
   background: linear-gradient(107.24deg, #FEA36F -11.37%, #062630 61.84%);
   background-clip: text;
   color: transparent
+}
+
+.top-page-intro p {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 140%;
+  letter-spacing: -0.5px;
+}
+
+.top-page-adhesion {
+  display: flex;
+  flex-direction: column;
+  gap: $spacing-250;
 }
 
 // Top page image part
@@ -65,7 +92,7 @@
 
 // Glow
 
-.glow {
-  position: absolute;
-  z-index: 0;
-}
+// .glow {
+//   position: absolute;
+//   z-index: 0;
+// }
