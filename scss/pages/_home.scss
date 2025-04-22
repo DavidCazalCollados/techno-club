@@ -1,6 +1,45 @@
 .general-disposition {
   padding-left: $general-padding;
   padding-right: $general-padding;
-  display: flex;
-  flex-direction: column;
 }
+
+// Top page
+.top-page {
+  padding-top: 32px;
+  padding-bottom: 80px;
+  // height: 400px;
+  background-color: #FAF5F3;
+
+  background-image:
+    url('../../assets/illustrations/Vector.svg'),
+    url('../../assets/illustrations/glow-bg.svg');
+
+  background-repeat: no-repeat;
+  background-position: bottom right;
+
+  border: 1.2px solid;
+  border-image-source: radial-gradient(
+    37.55% 33.81% at 50% 75.06%,
+    rgba(10, 13, 22, 0.01) 20.5%,
+    rgba(10, 13, 22, 0.04) 100%
+  );
+}
+
+// Top page navbar
+.top-page nav {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  margin-bottom: 80px;
+}
+
+.top-page nav p {
+  font-family: $font-family-title;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 100%;
+  letter-spacing: -6%;
+  color: rgba(6, 38, 48, 1);
+}
+
+// Top page grid
