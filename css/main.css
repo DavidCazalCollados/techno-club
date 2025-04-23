@@ -44,6 +44,15 @@ h1, h2 {
   color: #062630;
 }
 
+.text-preset-7 {
+  font-family: "Martian Mono", monospace;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 120%;
+  letter-spacing: -1px;
+  color: #385159;
+}
+
 /* Layout */
 /* Components */
 .primary-button {
@@ -81,9 +90,12 @@ h1, h2 {
 /* Pages */
 .main-container {
   display: flex;
+  position: relative;
   flex-direction: column;
+  width: 1440px;
   gap: 120px;
   background-color: #FFFFFF;
+  overflow: hidden;
 }
 
 .top-page {
@@ -113,6 +125,8 @@ h1, h2 {
 .top-page-grid {
   display: flex;
   gap: 64px;
+  align-items: center;
+  flex-shrink: 0;
 }
 
 .top-page-info-part {
@@ -141,10 +155,76 @@ h1, h2 {
   gap: 20px;
 }
 
+.rating-reference {
+  display: flex;
+  gap: 12px;
+}
+
+.profile-stack {
+  position: relative;
+  flex-shrink: 0;
+  width: 110px;
+}
+
+.profile-container {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  border: 2px solid #FFFFFF;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.profile-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.profile-container:nth-child(1) {
+  left: 0px;
+}
+
+.profile-container:nth-child(2) {
+  left: 35px;
+}
+
+.profile-container:nth-child(3) {
+  left: 70px;
+}
+
+.rating-comment {
+  display: flex;
+  flex-direction: column;
+  flex-direction: end;
+  gap: 4px;
+}
+
+.stars-container {
+  display: flex;
+  gap: 0px;
+}
+
 .hero-image {
   width: 540px;
   height: 606px;
   border-radius: 8px;
+  z-index: 0;
+}
+
+.glow {
+  position: absolute;
+  bottom: -15%;
+  right: -25%;
+  pointer-events: none;
+  overflow: hidden;
+  z-index: 1;
+}
+
+.glow img {
+  width: 684px;
+  height: 684px;
+  overflow: hidden;
 }
 
 /*# sourceMappingURL=main.css.map */
