@@ -2,9 +2,12 @@
 
 .main-container {
   display: flex;
+  position: relative;
   flex-direction: column;
+  width: 1440px;
   gap: 120px;
   background-color: $main-background-color;
+  overflow: hidden;
 }
 
 // Top page
@@ -31,10 +34,6 @@
   );
 }
 
-// Top page navbar
-.top-page nav {
-}
-
 .top-page nav p {
   font-family: $font-family-title;
   font-weight: 600;
@@ -48,6 +47,8 @@
 .top-page-grid {
   display: flex;
   gap: $spacing-800;
+  align-items: center;
+  flex-shrink: 0;
 }
 
 // Top page text part
@@ -77,16 +78,76 @@
   gap: $spacing-250;
 }
 
+.rating-reference {
+  display: flex;
+  gap: $spacing-150;
+}
+
+.profile-stack {
+  position: relative;
+  flex-shrink: 0;
+  width: 110px;
+}
+
+.profile-container {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  border: 2px solid $main-background-color;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.profile-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.profile-container:nth-child(1) {
+  left: 0px;
+}
+
+.profile-container:nth-child(2) {
+  left: 35px;
+}
+
+.profile-container:nth-child(3) {
+  left: 70px;
+}
+
+.rating-comment {
+  display: flex;
+  flex-direction: column;
+  flex-direction: end;
+  gap: $spacing-050
+}
+
+.stars-container {
+  display: flex;
+  gap: $spacing-0;
+}
+
 // Top page image part
 .hero-image {
   width: 540px;
   height: 606px;
   border-radius: 8px;
+  z-index: 0;
 }
 
 // Glow
+.glow {
+  position: absolute;
+  bottom: -15%;
+  right: -25%;
+  pointer-events: none;
+  overflow: hidden;
+  z-index: 1;
+}
 
-// .glow {
-//   position: absolute;
-//   z-index: 0;
-// }
+.glow img {
+  width: 684px;
+  height: 684px;
+  overflow: hidden;
+}
