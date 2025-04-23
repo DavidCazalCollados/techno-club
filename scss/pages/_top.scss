@@ -8,17 +8,6 @@
   padding-bottom: $spacing-1000;
   padding-left: 135px;
   padding-right: 135px;
-  background-color: #FAF5F3;
-  background-image: url('../../assets/illustrations/Vector.svg');
-  background-size: cover;
-  background-repeat: no-repeat;
-
-  border: 1.2px solid;
-  border-image-source: radial-gradient(
-    37.55% 33.81% at 50% 75.06%,
-    rgba(10, 13, 22, 0.01) 20.5%,
-    rgba(10, 13, 22, 0.04) 100%
-  );
   overflow: hidden;
 }
 
@@ -122,13 +111,4 @@
   height: 606px;
   border-radius: 8px;
   z-index: 0;
-}
-
-// Glow
-.glow {
-  position: absolute;
-  bottom: 640px;
-  right: 0;
-  pointer-events: none;
-  z-index: 1;
 }

@@ -1,1 +1,12 @@
 // Reading journey section
+
+.reading-journey {
+  display: flex;
+  flex-direction: column;
+  width: 1170px;
+  height: 539px;
+  border-radius: $spacing-150;
+  padding-top: $spacing-1000;
+  padding-bottom: $spacing-1000;
+  gap: $spacing-800;
+}
