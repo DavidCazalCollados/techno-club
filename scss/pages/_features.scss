@@ -1,0 +1,32 @@
+// Feature part
+
+.features {
+  display: flex;
+  gap: $spacing-1000;
+  width: 1170px;
+}
+
+.feature-image img {
+  width: 560px;
+  height: 520px;
+  border-radius: 20px;
+  object-fit: cover;
+}
+
+.feature-text {
+  display: flex;
+  flex-direction: column;
+  gap: 34px;
+}
+
+.feature-list {
+  width: 431px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.inside-list-feature {
+  display: flex;
+  gap: 14px;
+}
