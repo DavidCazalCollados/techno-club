@@ -26,6 +26,15 @@ h1, h2 {
   font-family: "Martian Mono", monospace;
 }
 
+.text-preset-2 {
+  font-family: "Martian Mono", monospace;
+  font-weight: 600;
+  font-size: 50px;
+  line-height: 130%;
+  letter-spacing: -2px;
+  color: #062630;
+}
+
 .text-preset-5 {
   font-family: "Inter", sans-serif;
   font-weight: 400;
@@ -90,17 +99,18 @@ h1, h2 {
 /* Pages */
 .main-container {
   display: flex;
+  align-items: center;
   position: relative;
   flex-direction: column;
   width: 1440px;
   gap: 120px;
   background-color: #FFFFFF;
-  overflow: hidden;
 }
 
 .top-page {
   display: flex;
   flex-direction: column;
+  width: auto;
   gap: 80px;
   padding-top: 32px;
   padding-bottom: 80px;
@@ -111,6 +121,7 @@ h1, h2 {
   background-repeat: no-repeat;
   border: 1.2px solid;
   border-image-source: radial-gradient(37.55% 33.81% at 50% 75.06%, rgba(10, 13, 22, 0.01) 20.5%, rgba(10, 13, 22, 0.04) 100%);
+  overflow: hidden;
 }
 
 .top-page nav p {
@@ -214,17 +225,41 @@ h1, h2 {
 
 .glow {
   position: absolute;
-  bottom: -15%;
-  right: -25%;
+  bottom: 640px;
+  right: 0;
   pointer-events: none;
-  overflow: hidden;
   z-index: 1;
 }
 
-.glow img {
-  width: 684px;
-  height: 684px;
-  overflow: hidden;
+.features {
+  display: flex;
+  gap: 80px;
+  width: 1170px;
+}
+
+.feature-image img {
+  width: 560px;
+  height: 520px;
+  border-radius: 20px;
+  object-fit: cover;
+}
+
+.feature-text {
+  display: flex;
+  flex-direction: column;
+  gap: 34px;
+}
+
+.feature-list {
+  width: 431px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.inside-list-feature {
+  display: flex;
+  gap: 14px;
 }
 
 /*# sourceMappingURL=main.css.map */

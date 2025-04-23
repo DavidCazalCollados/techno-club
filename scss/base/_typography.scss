@@ -9,6 +9,15 @@ h1, h2 {
   font-family: $font-family-header;
 }
 
+.text-preset-2 {
+  font-family: $font-family-header;
+  font-weight: 600;
+  font-size: 50px;
+  line-height: 130%;
+  letter-spacing: -2px;
+  color: $neutral-900;
+}
+
 .text-preset-5 {
   font-family: $font-family-base;
   font-weight: 400;
