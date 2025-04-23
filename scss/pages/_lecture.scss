@@ -1,0 +1,49 @@
+// Lecture section
+
+.logo-center {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 11px;
+  left: 48.5%;
+  bottom: 7%;
+  z-index: 1;
+}
+
+.bottom-logos {
+  display: flex;
+  align-items: start;
+  gap: 21.56px;
+}
+
+.lecture-section {
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: $spacing-1000;
+}
+
+.lecture-section-text {
+  width: 530px;
+  display: flex;
+  flex-direction: column;
+  gap: $spacing-300;
+}
+
+.highlighted-word {
+    position: relative;
+    z-index: 0;
+    display: inline-block;
+}
+
+.highlighted-word img {
+  position: absolute;
+  z-index: 1;
+  left: -10px;
+  bottom: -2px;
+}
+
+.lecture-image-part img {
+  border-radius: 20px;
+}
