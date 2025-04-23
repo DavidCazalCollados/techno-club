@@ -118,6 +118,7 @@ h1, h2 {
   padding-right: 135px;
   background-color: #FAF5F3;
   background-image: url("../../assets/illustrations/Vector.svg");
+  background-size: cover;
   background-repeat: no-repeat;
   border: 1.2px solid;
   border-image-source: radial-gradient(37.55% 33.81% at 50% 75.06%, rgba(10, 13, 22, 0.01) 20.5%, rgba(10, 13, 22, 0.04) 100%);
@@ -260,6 +261,39 @@ h1, h2 {
 .inside-list-feature {
   display: flex;
   gap: 14px;
+}
+
+.lecture-section {
+  display: flex;
+  gap: 80px;
+}
+
+.lecture-section-text {
+  width: 530px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.highlighted-word {
+  position: relative;
+  z-index: 0;
+  display: inline-block;
+}
+
+.highlighted-word img {
+  position: absolute;
+  z-index: 1;
+  left: -10px;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.lecture-image-part img {
+  width: 100%;
+  height: 100%;
+  border-radius: 20px;
 }
 
 /*# sourceMappingURL=main.css.map */

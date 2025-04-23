@@ -1,0 +1,33 @@
+// Lecture section
+.lecture-section {
+  display: flex;
+  gap: $spacing-1000;
+}
+
+.lecture-section-text {
+  width: 530px;
+  display: flex;
+  flex-direction: column;
+  gap: $spacing-300;
+}
+
+.highlighted-word {
+    position: relative;
+    z-index: 0;
+    display: inline-block;
+}
+
+.highlighted-word img {
+  position: absolute;
+  z-index: 1;
+  left: -10px;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.lecture-image-part img {
+  width: 100%;
+  height: 100%;
+  border-radius: 20px;
+}
