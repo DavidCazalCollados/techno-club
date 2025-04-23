@@ -323,6 +323,11 @@ h1, h2 {
   bottom: -2px;
 }
 
+.lecture-image-part {
+  width: 560px;
+  height: 520px;
+}
+
 .lecture-image-part img {
   border-radius: 20px;
 }
