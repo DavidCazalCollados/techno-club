@@ -26,13 +26,58 @@ h1, h2 {
   font-family: "Martian Mono", monospace;
 }
 
-p {
+.text-preset-5 {
   font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 140%;
+  letter-spacing: -0.5px;
   color: #385159;
+}
+
+.text-preset-6 {
+  font-family: "Martian Mono", monospace;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 130%;
+  letter-spacing: -1px;
+  color: #062630;
 }
 
 /* Layout */
 /* Components */
+.primary-button {
+  position: relative;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  font-family: "Martian Mono", monospace;
+  border-radius: 8px;
+  border-width: 2px;
+  padding-top: 20px;
+  padding-right: 24px;
+  padding-bottom: 20px;
+  padding-left: 24px;
+  background: #FFF5EF;
+  color: #062630;
+  cursor: pointer;
+  transition: background 0.5s ease-in-out;
+}
+
+.primary-button:hover {
+  background: linear-gradient(90deg, #FFE2D1 0%, #FFF5EF 100%);
+}
+
+.primary-button:focus {
+  box-shadow: 0px 0px 0px 3px #FFFFFF, 0px 0px 0px 5px #385159;
+}
+
+.arrow-down {
+  width: 24px;
+  height: 24px;
+}
+
 /* Pages */
 .main-container {
   display: flex;
@@ -89,20 +134,14 @@ p {
   color: transparent;
 }
 
-.top-page-intro p {
-  font-weight: 400;
-  font-size: 20px;
-  line-height: 140%;
-  letter-spacing: -0.5px;
-}
-
 .top-page-adhesion {
   display: flex;
   flex-direction: column;
+  align-items: flex-start;
   gap: 20px;
 }
 
-.top-page-grid img {
+.hero-image {
   width: 540px;
   height: 606px;
   border-radius: 8px;
