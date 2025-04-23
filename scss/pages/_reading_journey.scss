@@ -3,10 +3,23 @@
 .reading-journey {
   display: flex;
   flex-direction: column;
+  align-items: center;
   width: 1170px;
   height: 539px;
   border-radius: $spacing-150;
   padding-top: $spacing-1000;
   padding-bottom: $spacing-1000;
   gap: $spacing-800;
+}
+
+.reading-journey h2 {
+  text-align: center;
+}
+
+.step-container {
+  display: flex;
+  gap: $spacing-600;
+  width: 1050px;
+  height: 110.02px;
+  background-color: red;
 }
