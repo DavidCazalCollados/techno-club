@@ -12,6 +12,7 @@
   padding-left: 135px;
   gap: $spacing-800;
   background-color: $neutral-900;
+  box-sizing: border-box;
 }
 
 .final-message {
@@ -25,6 +26,39 @@
 }
 
 .final-message h2 {
-  max-width: 685px;
+  width: 685px;
+}
+
+.adhesion-options {
+  display: flex;
+  flex-direction: column;
+  gap: $spacing-300;
+}
+
+.footer-color-text {
+  color: $main-background-color;
+}
+
+.footer-content {
+  display: flex;
   width: 100%;
+  max-width: 1170px;
+  justify-content: space-between;
+  padding-top: $spacing-300;
+  padding-bottom: $spacing-300;
+  border-top: 1px solid $neutral-700;
+}
+
+.footer-content p {
+  color: $main-background-color;
+}
+
+.social-media {
+  display: flex;
+  gap: 24px;
+}
+
+.papillon {
+  width: 22px;
+  height: 22px;
 }

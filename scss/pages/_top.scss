@@ -2,13 +2,14 @@
 .top-page {
   display: flex;
   flex-direction: column;
-  width: auto;
+  width: 100%;
+  max-width: 1440px;
   gap: $spacing-1000;
   padding-top: $spacing-400;
   padding-bottom: $spacing-1000;
   padding-left: 135px;
   padding-right: 135px;
-  overflow: hidden;
+  box-sizing: border-box;
 }
 
 .top-page nav p {
