@@ -1,4 +1,4 @@
-# 💻 Frontend Technical Test – Techno - Club
+# 💻 Technical Test – Techno - Club
 
 Bienvenue sur le repo de mon test Front-End.
 
