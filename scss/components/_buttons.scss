@@ -22,7 +22,7 @@
 }
 
 .primary-button:hover {
-  background: linear-gradient(90deg, #FFE2D1 0%, #FFF5EF 100%);
+  background: $gradient;
 }
 
 .primary-button:focus {
