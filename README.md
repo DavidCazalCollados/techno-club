@@ -41,6 +41,18 @@ Chaque section a son propre fichier SCSS pour favoriser l'isolation et la mainte
 ---
 
 
+## Étapes à venir :
+
+    - Responsive:
+        - Intégrer les medias query des styles de typographies comme indiqué dans le Design System
+        - Adapter les differentes sections
+    - Animations:
+        - Améliorer les transition des hover
+    - Révision:
+        - Passer en revu mon code pour vérifier que le tout respecte bien le Design system
+        - Vérifier que des variables / class ne soient eficientes
+        
+
 ## Architecture
 
   techno-club
