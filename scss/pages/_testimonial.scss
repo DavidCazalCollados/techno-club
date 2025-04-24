@@ -1,0 +1,28 @@
+// Testimonial
+
+.testimonial-part{
+  max-width: 970px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: $spacing-400;
+  align-items: center;
+}
+
+.rating-container {
+  display: flex;
+  gap: $spacing-075;
+}
+
+.star-container {
+  width: 24px;
+  height: 24px;
+}
+
+.comment {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: $spacing-400;
+  text-align: center;
+}
