@@ -1,0 +1,77 @@
+// Top page
+.top-page {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  gap: $spacing-1000;
+  padding-top: $spacing-400;
+  padding-bottom: $spacing-1000;
+  padding-left: 135px;
+  padding-right: 135px;
+  box-sizing: border-box;
+  border: 0;
+}
+
+// Top page navbar
+
+.top-page nav {
+  width: 100%;
+  max-width: 1184.06px;
+  display: flex;
+  gap: 30px;
+  border-radius: $radius-16;
+}
+
+// Top page grid
+.top-page-grid {
+  display: flex;
+  gap: $spacing-800;
+  align-items: center;
+}
+
+// Top page text part
+.top-page-info-part {
+  display: flex;
+  flex-direction: column;
+  gap: $spacing-400;
+  max-width: 570px;
+  width: 100%;
+}
+
+.top-page-intro {
+  display: flex;
+  flex-direction: column;
+  gap: $spacing-300;
+  width: 100%;
+}
+
+.top-page-intro h1 {
+  background: $text-gradient;
+  background-clip: text;
+  color: transparent;
+  width: 100%;
+}
+
+.top-page-intro p {
+  color: $neutral-700;
+  width: 100%;
+}
+
+.top-page-adhesion {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: $spacing-250;
+}
+
+.rating-comment p {
+  color: $neutral-700;
+}
+
+// Top page image part
+.hero-image {
+  width: 540px;
+  height: 606px;
+  border-radius: 8px;
+  z-index: 0;
+}

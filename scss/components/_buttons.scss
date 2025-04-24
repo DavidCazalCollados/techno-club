@@ -1,12 +1,11 @@
 .primary-button {
-  position: relative;
-  display: inline-flex;
+  display: flex;
   justify-content: center;
   align-items: center;
   gap: $spacing-200;
   font-family: $font-family-header;
 
-  border-radius: 8px;
+  border-radius: $radius-8;
   border: 2px $neutral-900 solid;
 
   z-index: 2;
@@ -35,7 +34,6 @@
 }
 
 .alternate-button {
-  position: relative;
   display: flex;
   justify-content: center;
   align-items: center;

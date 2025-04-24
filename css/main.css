@@ -15,17 +15,6 @@ p {
   margin: 0;
 }
 
-h1 {
-  font-weight: 700;
-  font-size: 62px;
-  line-height: 120%;
-  letter-spacing: -2px;
-}
-
-h1, h2 {
-  font-family: "Martian Mono", monospace;
-}
-
 .text-preset-1 {
   font-family: "Martian Mono", monospace;
   font-weight: 700;
@@ -105,10 +94,81 @@ h1, h2 {
 }
 
 /* Layout */
+.top-page {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  gap: 80px;
+  padding-top: 32px;
+  padding-bottom: 80px;
+  padding-left: 135px;
+  padding-right: 135px;
+  box-sizing: border-box;
+  border: 0;
+}
+
+.top-page nav {
+  width: 100%;
+  max-width: 1184.06px;
+  display: flex;
+  gap: 30px;
+  border-radius: 16px;
+}
+
+.top-page-grid {
+  display: flex;
+  gap: 64px;
+  align-items: center;
+}
+
+.top-page-info-part {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  max-width: 570px;
+  width: 100%;
+}
+
+.top-page-intro {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  width: 100%;
+}
+
+.top-page-intro h1 {
+  background: linear-gradient(107.24deg, #FEA36F -11.37%, #062630 61.84%);
+  background-clip: text;
+  color: transparent;
+  width: 100%;
+}
+
+.top-page-intro p {
+  color: #385159;
+  width: 100%;
+}
+
+.top-page-adhesion {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 20px;
+}
+
+.rating-comment p {
+  color: #385159;
+}
+
+.hero-image {
+  width: 540px;
+  height: 606px;
+  border-radius: 8px;
+  z-index: 0;
+}
+
 /* Components */
 .primary-button {
-  position: relative;
-  display: inline-flex;
+  display: flex;
   justify-content: center;
   align-items: center;
   gap: 16px;
@@ -138,7 +198,6 @@ h1, h2 {
 }
 
 .alternate-button {
-  position: relative;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -203,76 +262,6 @@ h1, h2 {
   overflow: hidden;
 }
 
-/* Pages */
-.main-container {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  position: relative;
-  flex-direction: column;
-  max-width: 1440px;
-  width: 100%;
-  gap: 120px;
-  background-color: #FFFFFF;
-  margin: 0 auto;
-  box-sizing: border-box;
-}
-
-.top-page {
-  display: flex;
-  flex-direction: column;
-  width: 100%;
-  gap: 80px;
-  padding-top: 32px;
-  padding-bottom: 80px;
-  padding-left: 135px;
-  padding-right: 135px;
-  box-sizing: border-box;
-}
-
-.top-page nav {
-  width: 100%;
-  max-width: 1184.06px;
-}
-
-.top-page-grid {
-  display: flex;
-  gap: 64px;
-  align-items: center;
-}
-
-.top-page-info-part {
-  display: flex;
-  flex-direction: column;
-  gap: 32px;
-  max-width: 570px;
-  width: 100%;
-}
-
-.top-page-intro {
-  display: flex;
-  flex-direction: column;
-  gap: 24px;
-  width: 100%;
-}
-
-.top-page-intro h1 {
-  background: linear-gradient(107.24deg, #FEA36F -11.37%, #062630 61.84%);
-  background-clip: text;
-  color: transparent;
-}
-
-.top-page-intro p {
-  color: #385159;
-}
-
-.top-page-adhesion {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  gap: 20px;
-}
-
 .rating-reference {
   display: flex;
   gap: 12px;
@@ -328,11 +317,17 @@ h1, h2 {
   height: 24px;
 }
 
-.hero-image {
-  width: 540px;
-  height: 606px;
-  border-radius: 8px;
-  z-index: 0;
+/* Pages */
+.main-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  flex-direction: column;
+  max-width: 1440px;
+  width: 100%;
+  gap: 120px;
+  background-color: #FFFFFF;
 }
 
 .features {

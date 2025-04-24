@@ -13,10 +13,11 @@
 /* Components */
 @import 'components/buttons';
 @import 'components/background';
+@import 'components/rating';
+@import 'layout/navbar';
 
 /* Pages */
 @import 'pages/home';
-@import 'pages/top';
 @import 'pages/features';
 @import 'pages/lecture';
 @import 'pages/reading_journey';
