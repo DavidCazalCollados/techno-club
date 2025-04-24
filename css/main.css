@@ -86,7 +86,6 @@ h1, h2 {
   font-size: 18px;
   line-height: 130%;
   letter-spacing: -1px;
-  color: #FFFFFF;
 }
 
 .text-preset-7 {
@@ -144,6 +143,7 @@ h1, h2 {
   padding-bottom: 20px;
   padding-left: 24px;
   background: #062630;
+  color: #FFFFFF;
   cursor: pointer;
 }
 
@@ -152,7 +152,7 @@ h1, h2 {
 }
 
 .alternate-button:focus {
-  box-shadow: 0px 0px 0px 3px #E6E1DF, 0px 0px 0px 5px #062630;
+  box-shadow: 0px 0px 0px 3px #062630, 0px 0px 0px 5px #E6E1DF;
 }
 
 .main-background {
