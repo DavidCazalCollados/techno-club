@@ -1,7 +1,5 @@
 # 💻 Technical Test – Techno - Club
 
-Bienvenue sur le repo de mon test Front-End.
-
 Ce projet est basé sur un design Figma fourni par Activis, que je réalise en HTML & Sass.
 
 ---
