@@ -5,7 +5,7 @@
   align-items:center;
   position: relative;
   flex-direction: column;
-  width: 1440px;
+  max-width: 1440px;
   gap: 120px;
   background-color: $main-background-color;
 }
