@@ -16,6 +16,8 @@
 
 .reading-journey h2 {
   text-align: center;
+  width: 100%;
+  max-width: 512px;
 }
 
 .step-container {
@@ -38,7 +40,6 @@
   height: 40px;
   gap: 10px;
   border-radius: 4px;
-  // Padding étrange:
   padding-top: 4px;
   padding-bottom: 4px;
   border: 2px solid $neutral-900;

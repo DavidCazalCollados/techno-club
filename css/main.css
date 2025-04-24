@@ -207,13 +207,13 @@ h1, h2 {
   gap: 120px;
   background-color: #FFFFFF;
   margin: 0 auto;
+  box-sizing: border-box;
 }
 
 .top-page {
   display: flex;
   flex-direction: column;
   width: 100%;
-  max-width: 1440px;
   gap: 80px;
   padding-top: 32px;
   padding-bottom: 80px;
@@ -222,39 +222,40 @@ h1, h2 {
   box-sizing: border-box;
 }
 
-.top-page nav p {
-  font-family: "Fira Code", monospace;
-  font-weight: 600;
-  font-size: 20px;
-  line-height: 100%;
-  letter-spacing: -0.06em;
-  color: rgb(6, 38, 48);
+.top-page nav {
+  width: 100%;
+  max-width: 1184.06px;
 }
 
 .top-page-grid {
   display: flex;
   gap: 64px;
   align-items: center;
-  flex-shrink: 0;
 }
 
 .top-page-info-part {
   display: flex;
   flex-direction: column;
   gap: 32px;
-  width: 570px;
+  max-width: 570px;
+  width: 100%;
 }
 
 .top-page-intro {
   display: flex;
   flex-direction: column;
   gap: 24px;
+  width: 100%;
 }
 
 .top-page-intro h1 {
   background: linear-gradient(107.24deg, #FEA36F -11.37%, #062630 61.84%);
   background-clip: text;
   color: transparent;
+}
+
+.top-page-intro p {
+  color: #385159;
 }
 
 .top-page-adhesion {
@@ -314,6 +315,11 @@ h1, h2 {
   gap: 0px;
 }
 
+.star-image-container {
+  width: 24px;
+  height: 24px;
+}
+
 .hero-image {
   width: 540px;
   height: 606px;
@@ -324,7 +330,8 @@ h1, h2 {
 .features {
   display: flex;
   gap: 80px;
-  width: 1170px;
+  max-width: 1170px;
+  width: 100%;
 }
 
 .feature-image img {
@@ -373,16 +380,25 @@ h1, h2 {
   position: relative;
   display: flex;
   align-items: center;
-  max-width: 1170px;
-  width: 100%;
   gap: 80px;
+  box-sizing: border-box;
 }
 
 .lecture-section-text {
   width: 100%;
+  max-width: 530px;
   display: flex;
   flex-direction: column;
   gap: 24px;
+}
+
+.lecture-section-text h2 {
+  width: 100%;
+  max-width: 534px;
+}
+
+.lecture-section-text p {
+  width: 100%;
 }
 
 .highlighted-word {
@@ -423,6 +439,8 @@ h1, h2 {
 
 .reading-journey h2 {
   text-align: center;
+  width: 100%;
+  max-width: 512px;
 }
 
 .step-container {
@@ -602,13 +620,15 @@ h1, h2 {
 }
 
 .final-message h2 {
-  width: 685px;
+  width: 100%;
+  max-width: 685px;
 }
 
 .adhesion-options {
   display: flex;
   flex-direction: column;
   gap: 24px;
+  align-items: center;
 }
 
 .footer-color-text {
