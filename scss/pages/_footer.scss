@@ -26,13 +26,15 @@
 }
 
 .final-message h2 {
-  width: 685px;
+  width: 100%;
+  max-width: 685px;
 }
 
 .adhesion-options {
   display: flex;
   flex-direction: column;
   gap: $spacing-300;
+  align-items: center;
 }
 
 .footer-color-text {

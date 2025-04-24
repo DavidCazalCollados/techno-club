@@ -21,16 +21,25 @@
   position: relative;
   display: flex;
   align-items: center;
-  max-width: 1170px;
-  width: 100%;
   gap: $spacing-1000;
+  box-sizing: border-box;
 }
 
 .lecture-section-text {
   width: 100%;
+  max-width: 530px;
   display: flex;
   flex-direction: column;
   gap: $spacing-300;
+}
+
+.lecture-section-text h2 {
+  width: 100%;
+  max-width: 534px;
+}
+
+.lecture-section-text p {
+  width: 100%;
 }
 
 .highlighted-word {
