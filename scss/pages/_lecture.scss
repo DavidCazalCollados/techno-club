@@ -6,8 +6,8 @@
   flex-direction: column;
   align-items: center;
   gap: 11px;
-  left: 48.5%;
-  bottom: 7%;
+  left: 530px;
+  bottom: 30px;
   z-index: 1;
 }
 
@@ -42,6 +42,11 @@
   z-index: 1;
   left: -10px;
   bottom: -2px;
+}
+
+.lecture-image-part {
+  width: 560px;
+  height: 520px;
 }
 
 .lecture-image-part img {

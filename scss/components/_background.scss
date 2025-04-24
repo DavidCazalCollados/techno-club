@@ -1,0 +1,45 @@
+.main-background {
+  position: relative;
+  background-color: #FAF5F3;
+  background-image: url('../../assets/illustrations/Vector.svg');
+  background-repeat: no-repeat;
+
+  border: 1.2px solid;
+  border-image-source: radial-gradient(
+    37.55% 33.81% at 50% 75.06%,
+    rgba(10, 13, 22, 0.01) 20.5%,
+    rgba(10, 13, 22, 0.04) 100%
+  );
+  overflow: hidden;
+}
+
+// Glow
+.glow-top {
+  position: absolute;
+  z-index: 1;
+  width: 684px;
+  height: 684px;
+  right: -250px;
+  bottom: 0;
+  overflow: hidden;
+}
+
+.glow-reading {
+  position: absolute;
+  z-index: 1;
+  width: 684px;
+  height: 684px;
+  right: -100px;
+  bottom: -100px;
+  overflow: hidden;
+}
+
+.glow-payment {
+  position: absolute;
+  z-index: 1;
+  width: 684px;
+  height: 684px;
+  right: -100px;
+  bottom: -250px;
+  overflow: hidden;
+}

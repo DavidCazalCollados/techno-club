@@ -1,0 +1,93 @@
+// Adhesion payment part
+
+.payment-adhesion {
+  max-width: 970px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: $spacing-800;
+}
+
+.payment-adhesion h2 {
+  text-align: center;
+}
+
+.payment-options {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  gap: 24px;
+}
+
+.classic-payment {
+  width: 286px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-radius: $radius-8;
+  gap: $spacing-400;
+  padding: $spacing-300;
+  border: 1px $neutral-200 solid;
+}
+
+.payment-infos {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: $spacing-300;
+}
+
+.price {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.divider {
+  height: 1px;
+  background-color: $neutral-200;
+  width: 100%;
+}
+
+.payment-advantages {
+  width: 100%;
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.advantage {
+  display: flex;
+  gap: 12px;
+}
+
+.checkbox {
+  width: 24px;
+  height: 24px;
+  border-radius: 3.43px;
+  border: 1.71px $neutral-700 solid;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.pro-payment {
+  position: relative;
+  width: 350px;
+  border-radius: $radius-8;
+  border: 1px $neutral-200 solid;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: $spacing-400;
+  padding-top: $spacing-500;
+  padding-right: $spacing-300;
+  padding-bottom: $spacing-500;
+  padding-left: $spacing-300;
+  background-color: $neutral-100;
+  overflow: hidden;
+  z-index: 10;
+}
