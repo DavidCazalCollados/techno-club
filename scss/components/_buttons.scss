@@ -7,7 +7,7 @@
   font-family: $font-family-header;
 
   border-radius: 8px;
-  border-width: 2px;
+  border: 2px $neutral-900 solid;
 
   z-index: 2;
 
@@ -17,10 +17,8 @@
   padding-left: $spacing-300;
 
   background: $light-salmon-50;
-  color: $neutral-900;
 
   cursor: pointer;
-  // transition: background 0.5s ease-in-out;
 }
 
 .primary-button:hover {
@@ -34,4 +32,35 @@
 .arrow-down {
   width: 24px;
   height: 24px;
+}
+
+.alternate-button {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: $spacing-200;
+
+  border-radius: 8px;
+  border: 2px $main-background-color solid;
+
+  z-index: 2;
+
+  padding-top: $spacing-250;
+  padding-right: $spacing-300;
+  padding-bottom: $spacing-250;
+  padding-left: $spacing-300;
+
+  background: $neutral-900;
+
+  cursor: pointer;
+
+}
+
+.alternate-button:hover {
+  background: linear-gradient(90deg, #385159 0%, #062630 100%);
+}
+
+.alternate-button:focus {
+  box-shadow: 0px 0px 0px 3px $neutral-200, 0px 0px 0px 5px $neutral-900;
 }

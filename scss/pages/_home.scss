@@ -3,11 +3,12 @@
 .main-container {
   display: flex;
   align-items:center;
+  justify-content: center;
   position: relative;
   flex-direction: column;
   max-width: 1440px;
   width: 100%;
   gap: 120px;
   background-color: $main-background-color;
-  overflow: hidden;
+  margin: 0 auto;
 }
