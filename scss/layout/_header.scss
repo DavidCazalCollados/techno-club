@@ -17,6 +17,7 @@
   display: flex;
   gap: $spacing-800;
   align-items: center;
+  // flex-wrap: wrap;
 }
 
 // Top page text part
@@ -64,4 +65,16 @@
   height: 606px;
   border-radius: 8px;
   z-index: 0;
+}
+
+
+// Responsivity
+@media (max-width: 1115px) {
+  .top-page {
+    align-items: center;
+  }
+
+  .top-page-grid {
+    flex-direction: column;
+  }
 }

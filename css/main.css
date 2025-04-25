@@ -165,6 +165,14 @@ p {
   z-index: 0;
 }
 
+@media (max-width: 1115px) {
+  .top-page {
+    align-items: center;
+  }
+  .top-page-grid {
+    flex-direction: column;
+  }
+}
 .footer {
   width: 100%;
   display: flex;
