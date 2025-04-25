@@ -218,6 +218,26 @@ p {
   border-radius: 16px;
 }
 
+.logo-container {
+  display: flex;
+  gap: 14px;
+  align-items: center;
+}
+
+.title-website {
+  display: flex;
+  gap: 5px;
+}
+
+.title-website p {
+  font-family: "Fira Code", monospace;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 100%;
+  letter-spacing: -6%;
+  color: #062630;
+}
+
 .features {
   display: flex;
   gap: 80px;

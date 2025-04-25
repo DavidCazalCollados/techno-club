@@ -7,3 +7,23 @@
   gap: 30px;
   border-radius: $radius-16;
 }
+
+.logo-container {
+  display: flex;
+  gap: 14px;
+  align-items: center;
+}
+
+.title-website {
+  display: flex;
+  gap: 5px;
+}
+
+.title-website p {
+  font-family: $font-family-title;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 100%;
+  letter-spacing: -6%;
+  color: $neutral-900;
+}
