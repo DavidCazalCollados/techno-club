@@ -444,6 +444,11 @@ p {
   border-radius: 20px;
 }
 
+@media (max-width: 768px) {
+  .highlighted-word img {
+    width: 105px;
+  }
+}
 @media (max-width: 1115px) {
   .lecture-section {
     flex-direction: column;
