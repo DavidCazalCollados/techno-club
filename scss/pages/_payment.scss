@@ -10,6 +10,8 @@
 
 .payment-adhesion h2 {
   text-align: center;
+  width: 100%;
+  color: $neutral-900;
 }
 
 .payment-options {
@@ -29,6 +31,7 @@
   gap: $spacing-400;
   padding: $spacing-300;
   border: 1px $neutral-200 solid;
+  background-color: $neutral-0;
 }
 
 .payment-infos {
@@ -36,6 +39,18 @@
   display: flex;
   flex-direction: column;
   gap: $spacing-300;
+}
+
+.payment-infos h4 {
+  color: $neutral-900;
+}
+
+.price h3 {
+  color: $neutral-900;
+}
+
+.price p {
+  color: $neutral-700;
 }
 
 .price {
@@ -62,6 +77,10 @@
 .advantage {
   display: flex;
   gap: 12px;
+}
+
+.advantage p {
+  color: $neutral-700;
 }
 
 .checkbox {
