@@ -345,6 +345,117 @@ p {
   gap: 195px;
 }
 
+.payment-adhesion {
+  max-width: 970px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 64px;
+}
+
+.payment-adhesion h2 {
+  text-align: center;
+  width: 100%;
+  color: #062630;
+}
+
+.payment-options {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  gap: 24px;
+}
+
+.classic-payment {
+  width: 286px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-radius: 8px;
+  gap: 32px;
+  padding: 24px;
+  border: 1px #E6E1DF solid;
+  background-color: #FFFFFF;
+}
+
+.payment-infos {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.payment-infos h4 {
+  color: #062630;
+}
+
+.price h3 {
+  color: #062630;
+}
+
+.price p {
+  color: #385159;
+}
+
+.price {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.divider {
+  height: 1px;
+  background-color: #E6E1DF;
+  width: 100%;
+}
+
+.payment-advantages {
+  width: 100%;
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.advantage {
+  display: flex;
+  gap: 12px;
+}
+
+.advantage p {
+  color: #385159;
+}
+
+.checkbox {
+  width: 24px;
+  height: 24px;
+  border-radius: 3.43px;
+  border: 1.71px #385159 solid;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.pro-payment {
+  position: relative;
+  width: 350px;
+  border-radius: 8px;
+  border: 1px #E6E1DF solid;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 32px;
+  padding-top: 40px;
+  padding-right: 24px;
+  padding-bottom: 40px;
+  padding-left: 24px;
+  background-color: #FAF5F3;
+  overflow: hidden;
+  z-index: 10;
+}
+
 /* Components */
 .primary-button {
   display: flex;
@@ -508,117 +619,6 @@ p {
   width: 100%;
   gap: 120px;
   background-color: #FFFFFF;
-}
-
-.payment-adhesion {
-  max-width: 970px;
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  gap: 64px;
-}
-
-.payment-adhesion h2 {
-  text-align: center;
-  width: 100%;
-  color: #062630;
-}
-
-.payment-options {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 100%;
-  gap: 24px;
-}
-
-.classic-payment {
-  width: 286px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  border-radius: 8px;
-  gap: 32px;
-  padding: 24px;
-  border: 1px #E6E1DF solid;
-  background-color: #FFFFFF;
-}
-
-.payment-infos {
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  gap: 24px;
-}
-
-.payment-infos h4 {
-  color: #062630;
-}
-
-.price h3 {
-  color: #062630;
-}
-
-.price p {
-  color: #385159;
-}
-
-.price {
-  width: 100%;
-  display: flex;
-  align-items: center;
-  gap: 8px;
-}
-
-.divider {
-  height: 1px;
-  background-color: #E6E1DF;
-  width: 100%;
-}
-
-.payment-advantages {
-  width: 100%;
-  z-index: 2;
-  display: flex;
-  flex-direction: column;
-  gap: 16px;
-}
-
-.advantage {
-  display: flex;
-  gap: 12px;
-}
-
-.advantage p {
-  color: #385159;
-}
-
-.checkbox {
-  width: 24px;
-  height: 24px;
-  border-radius: 3.43px;
-  border: 1.71px #385159 solid;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.pro-payment {
-  position: relative;
-  width: 350px;
-  border-radius: 8px;
-  border: 1px #E6E1DF solid;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  gap: 32px;
-  padding-top: 40px;
-  padding-right: 24px;
-  padding-bottom: 40px;
-  padding-left: 24px;
-  background-color: #FAF5F3;
-  overflow: hidden;
-  z-index: 10;
 }
 
 .testimonial-part {
