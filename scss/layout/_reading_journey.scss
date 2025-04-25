@@ -47,8 +47,6 @@
   height: 40px;
   gap: 10px;
   border-radius: $radius-4;
-  // padding-top: 4px;
-  // padding-bottom: 4px;
   border: 2px solid $neutral-900;
   align-items: center;
   justify-content: center;
@@ -73,4 +71,27 @@
   bottom: 78px;
   display: flex;
   gap: 195px;
+}
+
+// Responsivity
+
+@media (max-width: 1115px) {
+  .reading-journey {
+    height: 800px;
+    max-height: 800px;
+  }
+
+  .step-container {
+    flex-direction: column;
+    max-width: auto;
+    width: auto;
+  }
+
+  .arrow-transition-grid {
+    // flex-direction: column;
+    rotate: 90deg;
+    gap: 60px;
+    bottom: -190px;
+    left: 10px;
+  }
 }
