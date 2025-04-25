@@ -706,7 +706,7 @@ p {
 .main-background {
   position: relative;
   background-color: #FAF5F3;
-  background-image: url("/techno-club/assets/illustrations/beige-pattern.png");
+  background-image: url("/techno-club/assets/illustrations/beige-pattern.svg");
   background-repeat: no-repeat;
   border: 1.2px solid;
   border-image-source: radial-gradient(37.55% 33.81% at 50% 75.06%, rgba(10, 13, 22, 0.01) 20.5%, rgba(10, 13, 22, 0.04) 100%);
@@ -714,7 +714,7 @@ p {
 }
 
 .footer-background {
-  background: #062630 url("../../assets/illustrations/pattern-blue.svg");
+  background: #062630 url("../../assets/illustrations/best-blue.svg");
 }
 
 .glow-top {
