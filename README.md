@@ -39,16 +39,6 @@ Chaque section a son propre fichier SCSS pour favoriser l'isolation et la mainte
     - Je me réfère en permanence au Figma et au design system pour respecter la cohérence visuelle (espacements, typographies, couleurs).
 ---
 
-
-## Étapes à venir :
-
-    - Responsive:
-        - Intégrer les medias query des styles de typographies comme indiqué dans le Design System
-        - Adapter les differentes sections
-    - Animations:
-        - Améliorer les transition des hovers
-
-
 ## Architecture
 
 techno-club

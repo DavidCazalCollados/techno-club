@@ -118,3 +118,25 @@
     flex-direction: column;
   }
 }
+
+@media (max-width: 580px) {
+  .payment-adhesion {
+    width: 300px;
+  }
+
+  .payment-adhesion h2 {
+    width: 300px;
+  }
+
+  .payment-options {
+    width: 300px;
+  }
+
+  .classic-payment {
+    width: 230px;
+  }
+
+  .pro-payment {
+    width: 260px;
+  }
+}
