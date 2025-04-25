@@ -15,8 +15,11 @@
 }
 
 .star-container {
-  width: 24px;
-  height: 24px;
+  width: 28px;
+  height: 28px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .comment {
@@ -25,4 +28,13 @@
   flex-direction: column;
   gap: $spacing-400;
   text-align: center;
+}
+
+.comment h3 {
+  color: $neutral-900;
+  width: 100%;
+}
+
+.comment p {
+  color: $neutral-700;
 }
