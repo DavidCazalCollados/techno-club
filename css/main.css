@@ -31,15 +31,6 @@ p {
   letter-spacing: -2px;
 }
 
-.text-preset-2-5 {
-  font-family: "Martian Mono", monospace;
-  font-weight: 600;
-  font-size: 50px;
-  line-height: 130%;
-  letter-spacing: -2px;
-  color: #FAF5F3;
-}
-
 .text-preset-3 {
   font-family: "Martian Mono", monospace;
   font-weight: 600;
@@ -65,14 +56,6 @@ p {
 }
 
 .text-preset-6 {
-  font-family: "Martian Mono", monospace;
-  font-weight: 600;
-  font-size: 18px;
-  line-height: 130%;
-  letter-spacing: -1px;
-}
-
-.text-preset-6-5 {
   font-family: "Martian Mono", monospace;
   font-weight: 600;
   font-size: 18px;
@@ -142,7 +125,7 @@ p {
   gap: 20px;
 }
 
-.rating-comment p {
+.rating-color-top {
   color: #385159;
 }
 
@@ -562,6 +545,10 @@ p {
   overflow: hidden;
 }
 
+.footer-background {
+  background: #062630 url("../../assets/illustrations/pattern-blue.svg");
+}
+
 .glow-top {
   position: absolute;
   z-index: 1;
@@ -595,10 +582,14 @@ p {
 .rating-reference {
   display: flex;
   gap: 12px;
+  justify-content: center;
+  align-items: center;
 }
 
 .profile-stack {
   position: relative;
+  display: flex;
+  align-items: center;
   flex-shrink: 0;
   width: 110px;
 }
@@ -643,6 +634,9 @@ p {
 }
 
 .star-image-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   width: 24px;
   height: 24px;
 }
@@ -671,7 +665,6 @@ p {
   padding-right: 135px;
   padding-left: 135px;
   gap: 64px;
-  background-color: #062630;
   box-sizing: border-box;
 }
 
@@ -688,6 +681,7 @@ p {
 .final-message h2 {
   width: 100%;
   max-width: 685px;
+  color: #FAF5F3;
 }
 
 .adhesion-options {
@@ -695,9 +689,6 @@ p {
   flex-direction: column;
   gap: 24px;
   align-items: center;
-}
-
-.footer-color-text {
   color: #FFFFFF;
 }
 
@@ -723,6 +714,18 @@ p {
 .papillon {
   width: 22px;
   height: 22px;
+}
+
+.rating-comment-footer {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  justify-content: center;
+}
+
+.rating-container-footer {
+  display: flex;
+  gap: 2px;
 }
 
 /*# sourceMappingURL=main.css.map */
