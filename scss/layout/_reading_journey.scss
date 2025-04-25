@@ -18,13 +18,18 @@
   text-align: center;
   width: 100%;
   max-width: 512px;
+  color: $neutral-900;
 }
 
 .step-container {
   display: flex;
+  align-items: center;
+  position: relative;
   gap: $spacing-600;
-  width: 1050px;
-  height: 110.02px;
+  width: 100%;
+  max-width: 1050px;
+  max-height: 110.02px;
+  height: 100%;
 }
 
 .step {
@@ -32,6 +37,8 @@
   flex-direction: column;
   gap: $spacing-300;
   position: relative;
+  width: 100%;
+  color: $neutral-900;
 }
 
 .step-number {
@@ -39,15 +46,31 @@
   width: 40px;
   height: 40px;
   gap: 10px;
-  border-radius: 4px;
-  padding-top: 4px;
-  padding-bottom: 4px;
+  border-radius: $radius-4;
+  // padding-top: 4px;
+  // padding-bottom: 4px;
   border: 2px solid $neutral-900;
   align-items: center;
   justify-content: center;
 }
 
+.step-number p {
+  text-align: center;
+}
+
+.step-text {
+  width: 100%;
+}
+
 .arrow-transition {
   position: absolute;
   right: 0;
+}
+
+.arrow-transition-grid {
+  position: absolute;
+  left: 145px;
+  bottom: 78px;
+  display: flex;
+  gap: 195px;
 }

@@ -22,7 +22,6 @@
   display: flex;
   align-items: center;
   gap: $spacing-1000;
-  box-sizing: border-box;
 }
 
 .lecture-section-text {
@@ -36,16 +35,13 @@
 .lecture-section-text h2 {
   width: 100%;
   max-width: 534px;
-}
-
-.lecture-section-text p {
-  width: 100%;
+  color: $neutral-900;
 }
 
 .highlighted-word {
-    position: relative;
-    z-index: 0;
-    display: inline-block;
+  position: relative;
+  z-index: 0;
+  display: inline-block;
 }
 
 .highlighted-word img {
@@ -55,11 +51,16 @@
   bottom: -2px;
 }
 
+.lecture-section-text p {
+  width: 100%;
+  color: $neutral-700;
+}
+
 .lecture-image-part {
   width: 560px;
   height: 520px;
 }
 
 .lecture-image-part img {
-  border-radius: 20px;
+  border-radius: $radius-20;
 }

@@ -11,6 +11,8 @@
 @import 'layout/footer';
 @import 'layout/navbar';
 @import 'layout/features';
+@import 'layout/lecture';
+@import 'layout/reading_journey';
 
 /* Components */
 @import 'components/buttons';
@@ -19,8 +21,6 @@
 
 /* Pages */
 @import 'pages/home';
-@import 'pages/lecture';
-@import 'pages/reading_journey';
 @import 'pages/payment';
 @import 'pages/testimonial';
 @import 'pages/footer';
