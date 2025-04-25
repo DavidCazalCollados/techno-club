@@ -9,16 +9,16 @@
 @import 'layout/grid';
 @import 'layout/header';
 @import 'layout/footer';
+@import 'layout/navbar';
+@import 'layout/features';
 
 /* Components */
 @import 'components/buttons';
 @import 'components/background';
 @import 'components/rating';
-@import 'layout/navbar';
 
 /* Pages */
 @import 'pages/home';
-@import 'pages/features';
 @import 'pages/lecture';
 @import 'pages/reading_journey';
 @import 'pages/payment';
