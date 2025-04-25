@@ -38,3 +38,12 @@
 .comment p {
   color: $neutral-700;
 }
+
+// Responsivity
+
+@media (max-width: 980px) {
+  .testimonial-part {
+    max-width: 530px;
+    width: 100%;
+  }
+}
