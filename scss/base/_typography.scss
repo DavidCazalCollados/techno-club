@@ -30,6 +30,14 @@
   letter-spacing: -1px;
 }
 
+.text-preset-4-regular {
+  font-family: $font-family-header;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 120%;
+  letter-spacing: -1px;
+}
+
 .text-preset-5 {
   font-family: $font-family-base;
   font-weight: 400;
@@ -52,4 +60,27 @@
   font-size: 14px;
   line-height: 120%;
   letter-spacing: -1px;
+}
+
+// Responsivity
+ @media (max-width: 768px) {
+  .text-preset-1 {
+    font-size: 38px;
+  }
+  .text-preset-2 {
+    font-size: 32px;
+  }
+  .text-preset-3 {
+    font-size: 24px;
+    line-height: 110%;
+  }
+  .text-preset-4 {
+    font-size: 20px;
+  }
+  .text-preset-5 {
+    font-size: 18px;
+  }
+  .text-preset-6 {
+    font-size: 16px;
+  }
 }
