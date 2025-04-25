@@ -73,3 +73,23 @@
   display: flex;
   gap: $spacing-025;
 }
+
+@media (max-width: 980px) {
+  .footer {
+    width: 100%;
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .final-message {
+    width: 300px;
+  }
+
+  .footer-color-text{
+    text-align: start;
+  }
+
+  .footer-content {
+    width: 300px;
+  }
+}

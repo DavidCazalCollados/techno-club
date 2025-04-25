@@ -11,3 +11,11 @@
   gap: 120px;
   background-color: $neutral-0;
 }
+
+// Responsivity
+
+@media (max-width: 950px) {
+  .main-container {
+    width: auto;
+  }
+}
