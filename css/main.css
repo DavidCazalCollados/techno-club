@@ -307,8 +307,7 @@ p {
 
 @media (max-width: 980px) {
   .top-page nav {
-    width: auto;
-    max-width: auto;
+    width: 300px;
   }
 }
 .features {
@@ -575,6 +574,12 @@ p {
   }
   .step-container {
     width: 300px;
+  }
+  .arrow-transition-grid {
+    rotate: 90deg;
+    gap: 80px;
+    bottom: -225px;
+    left: 10px;
   }
 }
 .payment-adhesion {
