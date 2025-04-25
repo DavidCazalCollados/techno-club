@@ -64,7 +64,6 @@ p {
   font-size: 20px;
   line-height: 140%;
   letter-spacing: -0.5px;
-  color: #385159;
 }
 
 .text-preset-6 {
@@ -73,7 +72,6 @@ p {
   font-size: 18px;
   line-height: 130%;
   letter-spacing: -1px;
-  color: #062630;
 }
 
 .text-preset-6-5 {
@@ -211,6 +209,144 @@ p {
   height: 28px;
 }
 
+.logo-center {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 11px;
+  left: 530px;
+  bottom: 30px;
+  z-index: 1;
+}
+
+.bottom-logos {
+  display: flex;
+  align-items: start;
+  gap: 21.56px;
+}
+
+.lecture-section {
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 80px;
+}
+
+.lecture-section-text {
+  width: 100%;
+  max-width: 530px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.lecture-section-text h2 {
+  width: 100%;
+  max-width: 534px;
+  color: #062630;
+}
+
+.highlighted-word {
+  position: relative;
+  z-index: 0;
+  display: inline-block;
+}
+
+.highlighted-word img {
+  position: absolute;
+  z-index: 1;
+  left: -10px;
+  bottom: -2px;
+}
+
+.lecture-section-text p {
+  width: 100%;
+  color: #385159;
+}
+
+.lecture-image-part {
+  width: 560px;
+  height: 520px;
+}
+
+.lecture-image-part img {
+  border-radius: 20px;
+}
+
+.reading-journey {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 1170px;
+  width: 100%;
+  max-height: 539px;
+  height: 100%;
+  border-radius: 12px;
+  padding-top: 80px;
+  padding-bottom: 80px;
+  gap: 64px;
+}
+
+.reading-journey h2 {
+  text-align: center;
+  width: 100%;
+  max-width: 512px;
+  color: #062630;
+}
+
+.step-container {
+  display: flex;
+  align-items: center;
+  position: relative;
+  gap: 48px;
+  width: 100%;
+  max-width: 1050px;
+  max-height: 110.02px;
+  height: 100%;
+}
+
+.step {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  position: relative;
+  width: 100%;
+  color: #062630;
+}
+
+.step-number {
+  display: flex;
+  width: 40px;
+  height: 40px;
+  gap: 10px;
+  border-radius: 4px;
+  border: 2px solid #062630;
+  align-items: center;
+  justify-content: center;
+}
+
+.step-number p {
+  text-align: center;
+}
+
+.step-text {
+  width: 100%;
+}
+
+.arrow-transition {
+  position: absolute;
+  right: 0;
+}
+
+.arrow-transition-grid {
+  position: absolute;
+  left: 145px;
+  bottom: 78px;
+  display: flex;
+  gap: 195px;
+}
+
 /* Components */
 .primary-button {
   display: flex;
@@ -289,7 +425,7 @@ p {
 
 .glow-reading {
   position: absolute;
-  z-index: 1;
+  z-index: 0;
   width: 684px;
   height: 684px;
   right: -100px;
@@ -373,122 +509,6 @@ p {
   width: 100%;
   gap: 120px;
   background-color: #FFFFFF;
-}
-
-.logo-center {
-  position: absolute;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 11px;
-  left: 530px;
-  bottom: 30px;
-  z-index: 1;
-}
-
-.bottom-logos {
-  display: flex;
-  align-items: start;
-  gap: 21.56px;
-}
-
-.lecture-section {
-  position: relative;
-  display: flex;
-  align-items: center;
-  gap: 80px;
-  box-sizing: border-box;
-}
-
-.lecture-section-text {
-  width: 100%;
-  max-width: 530px;
-  display: flex;
-  flex-direction: column;
-  gap: 24px;
-}
-
-.lecture-section-text h2 {
-  width: 100%;
-  max-width: 534px;
-}
-
-.lecture-section-text p {
-  width: 100%;
-}
-
-.highlighted-word {
-  position: relative;
-  z-index: 0;
-  display: inline-block;
-}
-
-.highlighted-word img {
-  position: absolute;
-  z-index: 1;
-  left: -10px;
-  bottom: -2px;
-}
-
-.lecture-image-part {
-  width: 560px;
-  height: 520px;
-}
-
-.lecture-image-part img {
-  border-radius: 20px;
-}
-
-.reading-journey {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  max-width: 1170px;
-  width: 100%;
-  max-height: 539px;
-  height: 100%;
-  border-radius: 12px;
-  padding-top: 80px;
-  padding-bottom: 80px;
-  gap: 64px;
-}
-
-.reading-journey h2 {
-  text-align: center;
-  width: 100%;
-  max-width: 512px;
-}
-
-.step-container {
-  display: flex;
-  gap: 48px;
-  width: 1050px;
-  height: 110.02px;
-}
-
-.step {
-  display: flex;
-  flex-direction: column;
-  gap: 24px;
-  position: relative;
-}
-
-.step-number {
-  display: flex;
-  width: 40px;
-  height: 40px;
-  gap: 10px;
-  border-radius: 4px;
-  padding-top: 4px;
-  padding-bottom: 4px;
-  border: 2px solid #062630;
-  align-items: center;
-  justify-content: center;
-}
-
-.arrow-transition {
-  position: absolute;
-  right: 0;
 }
 
 .payment-adhesion {
