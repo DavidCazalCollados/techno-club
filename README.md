@@ -37,7 +37,6 @@ Chaque section a son propre fichier SCSS pour favoriser l'isolation et la mainte
     - J'intègre d'abord le design desktop pour avoir une base solide, puis j'adapte la responsivité.
 - **Design System** :
     - Je me réfère en permanence au Figma et au design system pour respecter la cohérence visuelle (espacements, typographies, couleurs).
-    -
 ---
 
 
@@ -47,70 +46,68 @@ Chaque section a son propre fichier SCSS pour favoriser l'isolation et la mainte
         - Intégrer les medias query des styles de typographies comme indiqué dans le Design System
         - Adapter les differentes sections
     - Animations:
-        - Améliorer les transition des hover
-    - Révision:
-        - Passer en revu mon code pour vérifier que le tout respecte bien le Design system
-        - Vérifier que des variables / class ne soient eficientes
-        
+        - Améliorer les transition des hovers
+
 
 ## Architecture
 
-  techno-club
-  ├─ README.md
-  ├─ assets
-  │  ├─ icons
-  │  │  ├─ Arrow.svg
-  │  │  ├─ Arrow_Down.svg
-  │  │  ├─ Icon.svg
-  │  │  ├─ Logo.svg
-  │  │  ├─ Star.svg
-  │  │  ├─ Stars Container.svg
-  │  │  ├─ arrow-up.svg
-  │  │  ├─ check.svg
-  │  │  ├─ git-contour.svg
-  │  │  ├─ git-interieur.svg
-  │  │  ├─ github.svg
-  │  │  ├─ linkedin.svg
-  │  │  ├─ papillon.svg
-  │  │  ├─ react.svg
-  │  │  └─ typescript.svg
-  │  ├─ illustrations
-  │  │  ├─ Glow.svg
-  │  │  ├─ Vector.svg
-  │  │  ├─ glow-bg.svg
-  │  │  └─ path158.svg
-  │  └─ images
-  │     ├─ Testimonials images.png
-  │     ├─ features_image.jpg
-  │     ├─ medium-shot-people-book-club 1.png
-  │     ├─ people-library-reading-club-learning-from-books.png
-  │     ├─ profile_01.jpg
-  │     ├─ profile_02.jpg
-  │     └─ profile_03.jpg
-  ├─ css
-  │  ├─ main.css
-  │  └─ main.css.map
-  ├─ index.html
-  └─ scss
-     ├─ abstracts
-     │  └─ _variables.scss
-     ├─ base
-     │  ├─ _reset.scss
-     │  └─ _typography.scss
-     ├─ components
-     │  ├─ _background.scss
-     │  └─ _buttons.scss
-     ├─ layout
-     │  ├─ _footer.scss
-     │  ├─ _grid.scss
-     │  └─ _header.scss
-     ├─ main.scss
-     └─ pages
-        ├─ _features.scss
-        ├─ _footer.scss
-        ├─ _home.scss
-        ├─ _lecture.scss
-        ├─ _payment.scss
-        ├─ _reading_journey.scss
-        ├─ _testimonial.scss
-        └─ _top.scss
+techno-club
+├─ README.md
+├─ assets
+│  ├─ icons
+│  │  ├─ Arrow.svg
+│  │  ├─ Arrow_Down.svg
+│  │  ├─ Icon.svg
+│  │  ├─ Logo.svg
+│  │  ├─ Star.svg
+│  │  ├─ Stars Container.svg
+│  │  ├─ arrow-up.svg
+│  │  ├─ check.svg
+│  │  ├─ git-contour.svg
+│  │  ├─ git-interieur.svg
+│  │  ├─ github.svg
+│  │  ├─ linkedin.svg
+│  │  ├─ papillon.svg
+│  │  ├─ react.svg
+│  │  └─ typescript.svg
+│  ├─ illustrations
+│  │  ├─ Glow.svg
+│  │  ├─ Vector.svg
+│  │  ├─ glow-bg.svg
+│  │  ├─ path158.svg
+│  │  └─ pattern-blue.svg
+│  └─ images
+│     ├─ Testimonials images.png
+│     ├─ features_image.jpg
+│     ├─ medium-shot-people-book-club 1.png
+│     ├─ people-library-reading-club-learning-from-books.png
+│     ├─ profile_01.jpg
+│     ├─ profile_02.jpg
+│     └─ profile_03.jpg
+├─ css
+│  ├─ main.css
+│  └─ main.css.map
+├─ index.html
+└─ scss
+   ├─ abstracts
+   │  └─ _variables.scss
+   ├─ base
+   │  ├─ _reset.scss
+   │  └─ _typography.scss
+   ├─ components
+   │  ├─ _background.scss
+   │  ├─ _buttons.scss
+   │  └─ _rating.scss
+   ├─ layout
+   │  ├─ _features.scss
+   │  ├─ _footer.scss
+   │  ├─ _grid.scss
+   │  ├─ _header.scss
+   │  ├─ _lecture.scss
+   │  ├─ _navbar.scss
+   │  ├─ _payment.scss
+   │  ├─ _reading_journey.scss
+   │  └─ _testimonial.scss
+   ├─ main.scss
+   └─ pages
+      └─ _home.scss
