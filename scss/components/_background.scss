@@ -1,5 +1,7 @@
 .main-background {
   position: relative;
+  display: flex;
+  align-items: center;
   background-color: $neutral-100;
   background-image: url('/techno-club/assets/illustrations/beige-pattern.svg');
   background-repeat: no-repeat;

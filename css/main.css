@@ -914,6 +914,8 @@ p {
 
 .main-background {
   position: relative;
+  display: flex;
+  align-items: center;
   background-color: #FAF5F3;
   background-image: url("/techno-club/assets/illustrations/beige-pattern.svg");
   background-repeat: no-repeat;
@@ -1026,8 +1028,6 @@ p {
   justify-content: center;
   position: relative;
   flex-direction: column;
-  max-width: 1440px;
-  width: 100%;
   gap: 120px;
   background-color: #FFFFFF;
 }
